@@ -1,0 +1,136 @@
+
+.title {
+    padding: 1.75rem 0.25rem;
+    z-index: 10;
+    font-size: 2.25rem;
+    transition-duration: 1000ms;
+    background-color: white;
+    cursor: default;
+    animation: titleAnimation 3s infinite alternate;
+    font-family: 'FontDisplay', sans-serif;
+  
+    @media (min-width: 640px) {
+      font-size: 3.75rem;
+    }
+  
+    @media (min-width: 768px) {
+      font-size: 5.625rem;
+    }
+  
+    white-space: nowrap;
+    background-clip: text;
+    color: #BF91F9;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  .grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 3rem;
+    margin: 0 auto;
+    margin-top: 40px;
+  
+    @media (min-width: 640px) {
+      margin-top: 0; 
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  
+    @media (min-width: 1024px) {
+      gap: 6rem;
+    }
+  }
+  
+  .cardLink {
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    transition-duration: 700ms;
+  
+    @media (min-width: 768px) {
+      gap: 3rem;
+      padding-top: 10rem;
+      padding-bottom: 6rem;
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+  }
+  
+  .verticalLine {
+    position: absolute;
+    width: 1px;
+    height: 66%; 
+    background-image: linear-gradient(to bottom, rgb(136 136 136), rgba(136, 136, 136, 0.2), transparent); /* bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent */
+  }
+  
+  .iconContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 0.875rem;
+    transition-duration: 1000ms;
+    border-width: 1px;
+    border-radius: 9999px;
+    color: rgb(191, 145, 249);
+  
+    &:hover {
+      color: white; 
+      background-color: rgb(17 17 17); 
+      border-color: rgb(191, 145, 249);
+    }
+  
+    border-color: rgb(136 136 136);
+    background-color: rgb(17 17 17);
+    filter: drop-shadow(0 1px 2px rgb(245 158 11));
+  }
+  
+  .handle {
+    @media (min-width: 1024px) {
+      font-size: 1.5rem;
+    }
+  
+    @media (min-width: 1280px) {
+      font-size: 15;
+    }
+  
+    font-weight: 500;
+    transition-duration: 150ms;
+    color: #BF91F9;
+    font-family: 'FontDisplay', sans-serif;
+  }
+  
+  .label {
+    margin-top: 1rem;
+    font-size: 18px;
+    text-align: center;
+    transition-duration: 1000ms;
+    color: rgb(113 113 113);
+    .cardLink:hover & {
+      color: rgb(191, 145, 249);
+    }
+  }
+
+.shine {
+    position: absolute;
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+    transition: left 0.2s, top 0.2s;
+}
