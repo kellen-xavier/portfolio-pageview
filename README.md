@@ -5,6 +5,9 @@ Essa lading page foi feito com as tecnologias: [Next.js](https://nextjs.org/), [
 
 </div>
 
+![image](https://github.com/user-attachments/assets/d43fc22c-41af-4e1f-945f-65fdd777be3b)
+
+
 <br/>
 
 # Motivacional do projeto
