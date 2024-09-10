@@ -1,33 +1,60 @@
 <div align="center">
-    <a href="https://chronark.com"><h1 align="center">chronark.com</h1></a>
+    <a href="https://portfolio-pageview-kellen-xaviers.vercel.app/"><h1 align="center">Ladydebug</h1></a>
 
-My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=chronark.com), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
+Essa lading page foi feito com as tecnologias: [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=chronark.com), [Contentlayer](https://www.contentlayer.dev/) e feito deploy no [Vercel](https://vercel.com/).
 
 </div>
 
 <br/>
 
+# Motivacional do projeto
+>Ideia seria primeiro publicar uma Lading page simples para poder compartilhar como
+esta sendo o desenvolvimento e estudos por trás do site que estou construindo.
+Esse primeiro passo é bem simples, ideia é compartilhar o conhecimento com quem se interessar e estiver estudando e aplicar meus estudos, conforme abaixo:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/upstash/clone?demo-title=Next.js%20Portfolio%20with%20Pageview%20Counter&demo-description=Portfolio%20site%20with%20pageview%20counter%2C%20built%20with%20Next.js%2013%20App%20Router%2C%20Contentlayer%2C%20and%20Upstash%20Redis.&demo-url=https%3A%2F%2Fchronark.com%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F1DA8n5a6WaP9p1FXf9LmUY%2Fc6264fa2732355787bf657df92dda8a1%2FCleanShot_2023-04-17_at_14.17.37.png&project-name=Next.js%20Portfolio%20with%20Pageview%20Counter&repository-name=nextjs-portfolio-pageview-counter&repository-url=https%3A%2F%2Fgithub.com%2Fchronark%2Fchronark.com&from=templates&integration-ids=oac_V3R1GIpkoJorr6fqyiwdhl17)
 
-## Running Locally
+## Diário de Estudos: Construindo minha Carteira de Conhecimentos
+>Meu blog é o espaço onde documento meus aprendizados e desafios, servindo como uma "Carteira de Conhecimentos". Assim como no livro Programador Pragmatico, vejo meus estudos como um investimento contínuo no meu crescimento pessoal e profissional. A ideia é simples: investir regularmente em novos conhecimentos, diversificar minhas habilidades e gerenciar os riscos de focar em tecnologias que podem se tornar obsoletas.
+
+### Minhas metas incluem:
+
+🖥️ <strong>Aprender uma nova linguagem a cada ano:</strong> Atualmente, foco no ecossistema JavaScript. [confirma minha bio aqui no Github](https://github.com/kellen-xavier)
+
+📚 <strong>Leitura de livros técnicos:</strong> Estou lendo "Entrega continua: como entregar software de forma rápida e confiável", para aprofundar meu entendimento em automações e entregas contínuas.
+
+📚 <strong>Leitura de livros não técnicos: </strong> Em paralelo, estou explorando "A Biblioteca dos Sonhos Secretos", um romance que traz insights sobre a natureza humana.
+
+🧙‍♂️ <strong>Participação em grupos de usuários:</strong> A troca de experiências no evento GUTs tem sido enriquecedora.
+
+💻 <strong>Explorar novos ambientes: </strong> Faço uso do Linux Mint no meu ambiente pessoal e do Windows 11 no trabalho, ampliando minha familiaridade com diferentes sistemas operacionais.
+
+📬 <strong>Manter-me informada:</strong> Acompanhar newsletters como Código Fonte TV e Filipe Deschamps mantém-me atualizada sobre as tendências do mercado.
+
+
+📚 Seções:
+- Projetos: quando o site estiver apresentável estarei compartilhando ali :)
+- Contato: caso queima mandar uma mensagem!
+
+
+## Executando localmente
 
 
 ```sh-session
-git clone https://github.com/chronark/chronark.com.git
-cd chronark.com
+git clone [selecione qual modo prefere]
+cd projeto
 ```
 
+Crie o arquivo `.env` seguindo o exemplo [`.env.example`](https://github.com/kellen-xavier/portfolio-pageview/blob/main/.env.example).
 
-Create a `.env` file similar to [`.env.example`](https://github.com/chronark/chronark.com/blob/main/.env.example).
-
-Then install dependencies and run the development server:
+Agora faça a instalação seguindo os comandos:
 ```sh-session
 pnpm install
 pnpm dev
 ```
 
 
-## Cloning / Forking
+## Clonar / Forking
+
+Este projeto foi feito pelo [chronark](https://chronark.com/) e pode ser seu também:
 
 Please remove all of my personal information (projects, images, etc.) before deploying your own version of this site.
