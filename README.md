@@ -25,7 +25,7 @@ Esse primeiro passo é bem simples, ideia é compartilhar o conhecimento com que
 
 📚 <strong>Leitura de livros técnicos:</strong> Estou lendo "Entrega contínua: como entregar software de forma rápida e confiável", para aprofundar meu entendimento em automações e entregas contínuas.
 
-📚 <strong>Leitura de livros não técnicos: </strong> Em paralelo, estou explorando "A Biblioteca dos Sonhos Secretos", um romance que traz insights sobre a natureza humana.
+📚 <strong>Leitura de livros não técnicos: </strong> Em paralelo, estou explorando "Chocolate quente às quintas-feitas", um romance que traz insights sobre a natureza humana.
 
 🧙‍♂️ <strong>Participação em grupos de usuários:</strong> A troca de experiências no evento GUTs tem sido enriquecedora.
 
